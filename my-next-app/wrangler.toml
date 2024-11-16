@@ -43,7 +43,7 @@ pages_build_output_dir = ".vercel/output/static"
 # Docs: https://developers.cloudflare.com/pages/functions/bindings/#kv-namespaces
 # KV Example:
 # [[kv_namespaces]]
-binding = "NOTIFICATIONS_KV"
+binding = "__NEXT_ON_PAGES__KV_SUSPENSE_CACHE"
 id = "7f1f6f4f443f4f6e9f8f2d04b16e4508"
 
 # Bind a Queue producer. Use this binding to schedule an arbitrary task that may be processed later by a Queue consumer.
